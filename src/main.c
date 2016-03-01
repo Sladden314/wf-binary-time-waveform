@@ -103,7 +103,7 @@ void updateTimeRegular() {
   GRect from_frame = GRect(0, -60, 144, 60);
   GRect to_frame = GRect(0, 228, 144, 30);
 
-  animate_layer(text_layer_get_layer(s_reg_time_layer), &from_frame, &to_frame, 3000, 500);
+//  animate_layer(text_layer_get_layer(s_reg_time_layer), &from_frame, &to_frame, 3000, 500);
 }
 
 static void tap_handler(AccelAxisType axis, int32_t direction) {
